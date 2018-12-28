@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background-color: floralwhite;
+}
+
+.Header > button {
+  padding: 20px;
+  background-color: goldenrod;
+  margin-right: 20px;
+}
+
+.List {
+  width: 400px;
+  padding: 100px;
+  margin: 100px auto;
+  border-radius: 10%;
+  background-color: antiquewhite;
+}

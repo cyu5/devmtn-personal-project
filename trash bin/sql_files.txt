@@ -1,0 +1,33 @@
+MENU
+  menu_id   name   price   description   picture   category
+
+  
+USER
+  user_id, name, email, phone, address, auth0_id
+
+
+
+
+
+
+ORDER
+  queries questions
+  who order this?
+  what date was it placed?
+  which items was in the order?
+  what type of order: pickup, delivery, walk in?
+
+order_id serial,
+user_id integer forent key,
+date datetime,
+type varchar(20),
+
+LINE_ITEMS
+which order is it?
+what item is this line
+how many quantity?
+
+line_item_id serial,
+order_id integer foren key,
+menu_id foren key,
+LOOK AT AN OLD PROJECT ON SQL IF NOT CLEAR
