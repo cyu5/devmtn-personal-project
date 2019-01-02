@@ -1,21 +1,21 @@
 const INITIAL_STATE = {
-  user: ""
+  menu: []
 };
 
-const SET_USER = "SET_USER";
+const GET_MENU = "GET_MENU";
 
 export default function reducer(state = INITIAL_STATE, action) {
   switch (action.type) {
-    case SET_USER:
-      return Object.assign({}, state, { user: action.payload });
+    case GET_MENU:
+      return Object.assign({}, state, { menu: action.payload });
     default:
       return state;
   }
 }
 
-export function setUser(user) {
+export function getMenu(menu) {
   return {
-    action: SET_USER,
-    payload: user
+    type: GET_MENU,
+    payload: menu
   };
 }

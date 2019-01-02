@@ -1,0 +1,18 @@
+.Main h1 {
+  margin: 0;
+}
+
+.Main li {
+  list-style: none;
+  display: flex;
+}
+
+.Main ul .title {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.Main li {
+  display: flex;
+  justify-content: space-between;
+}
