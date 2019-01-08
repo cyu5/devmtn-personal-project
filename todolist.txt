@@ -1,1 +1,3 @@
-// added a dummy food item into menu
+add auth0 to login
+
+create a social login link and functionality

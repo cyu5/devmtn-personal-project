@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import { connect } from "react-redux";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Menu from "./Menu/Menu";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
@@ -11,7 +11,7 @@ function Main(props) {
   return (
     <main className="Main">
       <Switch>
-        <Route path={links.login} component={Login} />
+        <Route path="/login" component={Login} />
         <Route path={links.register} component={Register} />
         <Route exact path="/" component={Menu} />
       </Switch>
